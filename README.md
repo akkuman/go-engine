@@ -44,3 +44,9 @@ golang的通用开发库
 ## 使用
 * 设置GOPATH ``export GOPATH=$HOME/go``
 * 安装nodejs，设置NODE_PATH ``export NODE_PATH=$GOPATH/src/github.com/esrrhs/go-engine/node/linux/node_modules/``
+
+### 使用 go module（以 src/conn 为例）
+
+```
+GO111MODULE=on go get github.com/esrrhs/go-engine/src/conn
+```
